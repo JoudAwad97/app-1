@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the Home page of package 1!");
+  res.send("Welcome to the Home page of package 1 blue/green!");
 });
 
 app.get("/dummy", (req, res) => {
