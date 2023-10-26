@@ -23,7 +23,7 @@ app.get("/google", async (req, res) => {
 
 app.get("/call-endpoint", async (req, res) => {
   try {
-    const response = await axios.get("http://app-2.retail-store");
+    const response = await axios.get("http://app-2-active.retail-store");
     res.json(response.data);
   } catch (error) {
     res.status(500).json({ message: "Failed to call endpoint" });
